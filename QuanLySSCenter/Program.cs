@@ -17,7 +17,7 @@ namespace QuanLySSCenter
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new module14());
+            Application.Run(new frmQuanlyNhaphang());
         }
     }
 }
