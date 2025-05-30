@@ -185,6 +185,7 @@ namespace TP_BVSK
                     }
                 }
             }
+            //test
             else
             {
                 MessageBox.Show("Vui lòng chọn một nhà cung cấp để xóa!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);

@@ -18,6 +18,10 @@ namespace TP_BVSK
         public frmQuanlyNhaphang()
         {
             InitializeComponent();
+            txtSLNhap.TextChanged += (sender, eventArgs) => TinhTien();
+            txtDGNhap.TextChanged += (sender, eventArgs) => TinhTien();
+            txtThueSuat.TextChanged += (sender, eventArgs) => TinhTien();
+            txtVoucher.TextChanged += (sender, eventArgs) => TinhTien();
         }
 
         private void frmQuanlyNhaphang_Load(object sender, EventArgs e)
@@ -52,6 +56,41 @@ namespace TP_BVSK
                 }
             }
         }
+
+        private void TinhTien()
+        {
+            if (decimal.TryParse(txtSLNhap.Text, out decimal soLuong) &&
+        decimal.TryParse(txtDGNhap.Text, out decimal donGia))
+            {
+                // Tính thành tiền
+                decimal thanhTien = soLuong * donGia;
+                txtThanhTien.Text = thanhTien.ToString("N0");
+
+                // Tổng tiền tạm thời (nếu có nhiều dòng thì cần tính tổng lại sau)
+                decimal tongTien = thanhTien;
+                txtTongTien.Text = tongTien.ToString("N0");
+
+                // Đọc thuế suất (%) và voucher (số tiền) do người dùng nhập
+                decimal thueSuat = 0;
+                decimal voucher = 0;
+
+                decimal.TryParse(txtThueSuat.Text, out thueSuat); // phần trăm thuế suât
+                decimal.TryParse(txtVoucher.Text, out voucher);     // số tiền voucher
+
+                // Tính tiền thanh toán
+                decimal thanhToan = tongTien + (thueSuat / 100) * tongTien - voucher;
+
+                txtThanhToan.Text = thanhToan.ToString("N0");
+            }
+            else
+            {
+                txtThanhTien.Text = "";
+                txtTongTien.Text = "";
+                txtThanhToan.Text = "";
+            }
+        }
+
+        
 
         private void splitContainer1_Panel1_Paint(object sender, PaintEventArgs e)
         {
