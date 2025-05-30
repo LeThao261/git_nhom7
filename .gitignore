@@ -1,0 +1,33 @@
+# Visual Studio temporary files
+.vs/
+*.suo
+*.user
+*.aps
+*.bsc
+*.map
+*.ncb
+*.pdb
+*.obj
+*.ilk
+*.log
+*.tlog
+*.pidb
+*.lock.json
+*.buildlog
+*.docstates
+*.vstags
+*.vsidx
+*.opensdf
+
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# Other common build / temporary folders
+[Dd]ebug/
+[Rr]elease/
+*.exe
+*.dll
+*.zip
+*.rar
+*.7z

@@ -82,10 +82,9 @@ namespace QuanLySSCenter
             this.btnXoaHDB.ForeColor = System.Drawing.Color.White;
             this.btnXoaHDB.Image = ((System.Drawing.Image)(resources.GetObject("btnXoaHDB.Image")));
             this.btnXoaHDB.ImageSize = new System.Drawing.Size(17, 17);
-            this.btnXoaHDB.Location = new System.Drawing.Point(1587, 390);
-            this.btnXoaHDB.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnXoaHDB.Location = new System.Drawing.Point(1411, 312);
             this.btnXoaHDB.Name = "btnXoaHDB";
-            this.btnXoaHDB.Size = new System.Drawing.Size(176, 56);
+            this.btnXoaHDB.Size = new System.Drawing.Size(156, 45);
             this.btnXoaHDB.TabIndex = 59;
             this.btnXoaHDB.Text = "Xóa";
             this.btnXoaHDB.Click += new System.EventHandler(this.btnXoaHDB_Click);
@@ -101,10 +100,9 @@ namespace QuanLySSCenter
             this.btnSuaHDB.ForeColor = System.Drawing.Color.White;
             this.btnSuaHDB.Image = ((System.Drawing.Image)(resources.GetObject("btnSuaHDB.Image")));
             this.btnSuaHDB.ImageSize = new System.Drawing.Size(17, 17);
-            this.btnSuaHDB.Location = new System.Drawing.Point(1587, 326);
-            this.btnSuaHDB.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnSuaHDB.Location = new System.Drawing.Point(1411, 261);
             this.btnSuaHDB.Name = "btnSuaHDB";
-            this.btnSuaHDB.Size = new System.Drawing.Size(176, 56);
+            this.btnSuaHDB.Size = new System.Drawing.Size(156, 45);
             this.btnSuaHDB.TabIndex = 58;
             this.btnSuaHDB.Text = "Sửa";
             this.btnSuaHDB.Click += new System.EventHandler(this.btnSuaHDB_Click);
@@ -120,10 +118,9 @@ namespace QuanLySSCenter
             this.btnThemHDB.ForeColor = System.Drawing.Color.White;
             this.btnThemHDB.Image = ((System.Drawing.Image)(resources.GetObject("btnThemHDB.Image")));
             this.btnThemHDB.ImageSize = new System.Drawing.Size(17, 17);
-            this.btnThemHDB.Location = new System.Drawing.Point(1306, 392);
-            this.btnThemHDB.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnThemHDB.Location = new System.Drawing.Point(1161, 314);
             this.btnThemHDB.Name = "btnThemHDB";
-            this.btnThemHDB.Size = new System.Drawing.Size(176, 56);
+            this.btnThemHDB.Size = new System.Drawing.Size(156, 45);
             this.btnThemHDB.TabIndex = 57;
             this.btnThemHDB.Text = "Thêm";
             this.btnThemHDB.Click += new System.EventHandler(this.btnThemHDB_Click);
@@ -133,9 +130,11 @@ namespace QuanLySSCenter
             this.groupBox1.BackColor = System.Drawing.Color.LightSteelBlue;
             this.groupBox1.Controls.Add(this.guna2Button5);
             this.groupBox1.Controls.Add(this.txtTimKiem);
-            this.groupBox1.Location = new System.Drawing.Point(43, 31);
+            this.groupBox1.Location = new System.Drawing.Point(38, 25);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(371, 252);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox1.Size = new System.Drawing.Size(330, 202);
             this.groupBox1.TabIndex = 60;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Tìm kiếm thông tin";
@@ -151,10 +150,9 @@ namespace QuanLySSCenter
             this.guna2Button5.ForeColor = System.Drawing.Color.White;
             this.guna2Button5.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button5.Image")));
             this.guna2Button5.ImageSize = new System.Drawing.Size(17, 17);
-            this.guna2Button5.Location = new System.Drawing.Point(172, 157);
-            this.guna2Button5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2Button5.Location = new System.Drawing.Point(153, 126);
             this.guna2Button5.Name = "guna2Button5";
-            this.guna2Button5.Size = new System.Drawing.Size(155, 40);
+            this.guna2Button5.Size = new System.Drawing.Size(138, 32);
             this.guna2Button5.TabIndex = 48;
             this.guna2Button5.Text = "Tìm Kiếm";
             this.guna2Button5.Click += new System.EventHandler(this.btnTimKiem_Click);
@@ -171,13 +169,12 @@ namespace QuanLySSCenter
             this.txtTimKiem.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtTimKiem.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtTimKiem.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtTimKiem.Location = new System.Drawing.Point(25, 70);
-            this.txtTimKiem.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtTimKiem.Location = new System.Drawing.Point(22, 56);
             this.txtTimKiem.Name = "txtTimKiem";
             this.txtTimKiem.PasswordChar = '\0';
             this.txtTimKiem.PlaceholderText = "Nhập từ khoá";
             this.txtTimKiem.SelectedText = "";
-            this.txtTimKiem.Size = new System.Drawing.Size(329, 42);
+            this.txtTimKiem.Size = new System.Drawing.Size(292, 34);
             this.txtTimKiem.TabIndex = 50;
             // 
             // groupBox2
@@ -197,9 +194,11 @@ namespace QuanLySSCenter
             this.groupBox2.Controls.Add(this.txtSoHDB);
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Controls.Add(this.label1);
-            this.groupBox2.Location = new System.Drawing.Point(448, 31);
+            this.groupBox2.Location = new System.Drawing.Point(398, 25);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(1443, 252);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox2.Size = new System.Drawing.Size(1283, 202);
             this.groupBox2.TabIndex = 61;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Thông tin hoá đơn";
@@ -216,13 +215,12 @@ namespace QuanLySSCenter
             this.txtTongTien.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtTongTien.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtTongTien.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtTongTien.Location = new System.Drawing.Point(231, 180);
-            this.txtTongTien.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtTongTien.Location = new System.Drawing.Point(205, 144);
             this.txtTongTien.Name = "txtTongTien";
             this.txtTongTien.PasswordChar = '\0';
             this.txtTongTien.PlaceholderText = "";
             this.txtTongTien.SelectedText = "";
-            this.txtTongTien.Size = new System.Drawing.Size(216, 35);
+            this.txtTongTien.Size = new System.Drawing.Size(192, 28);
             this.txtTongTien.TabIndex = 69;
             // 
             // txtThanhToan
@@ -237,13 +235,12 @@ namespace QuanLySSCenter
             this.txtThanhToan.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtThanhToan.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtThanhToan.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtThanhToan.Location = new System.Drawing.Point(712, 99);
-            this.txtThanhToan.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtThanhToan.Location = new System.Drawing.Point(633, 79);
             this.txtThanhToan.Name = "txtThanhToan";
             this.txtThanhToan.PasswordChar = '\0';
             this.txtThanhToan.PlaceholderText = "";
             this.txtThanhToan.SelectedText = "";
-            this.txtThanhToan.Size = new System.Drawing.Size(216, 35);
+            this.txtThanhToan.Size = new System.Drawing.Size(192, 28);
             this.txtThanhToan.TabIndex = 68;
             // 
             // txtMaKH
@@ -258,20 +255,19 @@ namespace QuanLySSCenter
             this.txtMaKH.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtMaKH.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtMaKH.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtMaKH.Location = new System.Drawing.Point(1191, 96);
-            this.txtMaKH.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtMaKH.Location = new System.Drawing.Point(1059, 77);
             this.txtMaKH.Name = "txtMaKH";
             this.txtMaKH.PasswordChar = '\0';
             this.txtMaKH.PlaceholderText = "Nhập khách hàng";
             this.txtMaKH.SelectedText = "";
-            this.txtMaKH.Size = new System.Drawing.Size(216, 35);
+            this.txtMaKH.Size = new System.Drawing.Size(192, 28);
             this.txtMaKH.TabIndex = 67;
             // 
             // txtChietKhau
             // 
             this.txtChietKhau.BorderRadius = 18;
             this.txtChietKhau.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtChietKhau.DefaultText = "Nhập chiết khấu";
+            this.txtChietKhau.DefaultText = "";
             this.txtChietKhau.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.txtChietKhau.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.txtChietKhau.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
@@ -279,13 +275,12 @@ namespace QuanLySSCenter
             this.txtChietKhau.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtChietKhau.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtChietKhau.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtChietKhau.Location = new System.Drawing.Point(712, 35);
-            this.txtChietKhau.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtChietKhau.Location = new System.Drawing.Point(633, 28);
             this.txtChietKhau.Name = "txtChietKhau";
             this.txtChietKhau.PasswordChar = '\0';
-            this.txtChietKhau.PlaceholderText = "";
+            this.txtChietKhau.PlaceholderText = "Nhập chiết khấu";
             this.txtChietKhau.SelectedText = "";
-            this.txtChietKhau.Size = new System.Drawing.Size(216, 35);
+            this.txtChietKhau.Size = new System.Drawing.Size(192, 28);
             this.txtChietKhau.TabIndex = 66;
             // 
             // label8
@@ -293,9 +288,9 @@ namespace QuanLySSCenter
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label8.ForeColor = System.Drawing.Color.Black;
-            this.label8.Location = new System.Drawing.Point(558, 38);
+            this.label8.Location = new System.Drawing.Point(496, 30);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(132, 32);
+            this.label8.Size = new System.Drawing.Size(110, 28);
             this.label8.TabIndex = 65;
             this.label8.Text = "Chiết khấu";
             // 
@@ -304,9 +299,9 @@ namespace QuanLySSCenter
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label7.ForeColor = System.Drawing.Color.Black;
-            this.label7.Location = new System.Drawing.Point(990, 41);
+            this.label7.Location = new System.Drawing.Point(880, 33);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(163, 32);
+            this.label7.Size = new System.Drawing.Size(136, 28);
             this.label7.TabIndex = 64;
             this.label7.Text = "Mã nhân viên";
             // 
@@ -315,9 +310,9 @@ namespace QuanLySSCenter
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(18, 180);
+            this.label2.Location = new System.Drawing.Point(16, 144);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(118, 32);
+            this.label2.Size = new System.Drawing.Size(100, 28);
             this.label2.TabIndex = 63;
             this.label2.Text = "Tổng tiền";
             // 
@@ -326,9 +321,9 @@ namespace QuanLySSCenter
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label6.ForeColor = System.Drawing.Color.Black;
-            this.label6.Location = new System.Drawing.Point(984, 70);
+            this.label6.Location = new System.Drawing.Point(875, 56);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(0, 32);
+            this.label6.Size = new System.Drawing.Size(0, 28);
             this.label6.TabIndex = 61;
             // 
             // txtMaNV
@@ -343,13 +338,12 @@ namespace QuanLySSCenter
             this.txtMaNV.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtMaNV.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtMaNV.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtMaNV.Location = new System.Drawing.Point(1191, 38);
-            this.txtMaNV.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtMaNV.Location = new System.Drawing.Point(1059, 30);
             this.txtMaNV.Name = "txtMaNV";
             this.txtMaNV.PasswordChar = '\0';
             this.txtMaNV.PlaceholderText = "Nhập mã nhân viên";
             this.txtMaNV.SelectedText = "";
-            this.txtMaNV.Size = new System.Drawing.Size(216, 35);
+            this.txtMaNV.Size = new System.Drawing.Size(192, 28);
             this.txtMaNV.TabIndex = 59;
             // 
             // label4
@@ -357,9 +351,9 @@ namespace QuanLySSCenter
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(558, 99);
+            this.label4.Location = new System.Drawing.Point(496, 79);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(139, 32);
+            this.label4.Size = new System.Drawing.Size(116, 28);
             this.label4.TabIndex = 57;
             this.label4.Text = "Thanh toán";
             // 
@@ -368,17 +362,18 @@ namespace QuanLySSCenter
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(990, 99);
+            this.label5.Location = new System.Drawing.Point(880, 79);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(183, 32);
+            this.label5.Size = new System.Drawing.Size(152, 28);
             this.label5.TabIndex = 58;
             this.label5.Text = "Mã khách hàng";
             // 
             // dateNgayBan
             // 
-            this.dateNgayBan.Location = new System.Drawing.Point(231, 114);
+            this.dateNgayBan.Location = new System.Drawing.Point(205, 91);
+            this.dateNgayBan.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dateNgayBan.Name = "dateNgayBan";
-            this.dateNgayBan.Size = new System.Drawing.Size(269, 26);
+            this.dateNgayBan.Size = new System.Drawing.Size(240, 22);
             this.dateNgayBan.TabIndex = 58;
             // 
             // txtSoHDB
@@ -393,13 +388,12 @@ namespace QuanLySSCenter
             this.txtSoHDB.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtSoHDB.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtSoHDB.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtSoHDB.Location = new System.Drawing.Point(231, 38);
-            this.txtSoHDB.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtSoHDB.Location = new System.Drawing.Point(205, 30);
             this.txtSoHDB.Name = "txtSoHDB";
             this.txtSoHDB.PasswordChar = '\0';
             this.txtSoHDB.PlaceholderText = "Nhập số hoá đơn bán";
             this.txtSoHDB.SelectedText = "";
-            this.txtSoHDB.Size = new System.Drawing.Size(229, 35);
+            this.txtSoHDB.Size = new System.Drawing.Size(204, 28);
             this.txtSoHDB.TabIndex = 53;
             // 
             // label3
@@ -407,9 +401,9 @@ namespace QuanLySSCenter
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(18, 108);
+            this.label3.Location = new System.Drawing.Point(16, 86);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(119, 32);
+            this.label3.Size = new System.Drawing.Size(99, 28);
             this.label3.TabIndex = 57;
             this.label3.Text = "Ngày bán";
             // 
@@ -418,9 +412,9 @@ namespace QuanLySSCenter
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(18, 38);
+            this.label1.Location = new System.Drawing.Point(16, 30);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(98, 32);
+            this.label1.Size = new System.Drawing.Size(82, 28);
             this.label1.TabIndex = 52;
             this.label1.Text = "Số HĐB";
             // 
@@ -434,9 +428,11 @@ namespace QuanLySSCenter
             this.groupBox3.Controls.Add(this.txtSLBan);
             this.groupBox3.Controls.Add(this.label18);
             this.groupBox3.Controls.Add(this.txtMaHH);
-            this.groupBox3.Location = new System.Drawing.Point(27, 315);
+            this.groupBox3.Location = new System.Drawing.Point(24, 252);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(1111, 133);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox3.Size = new System.Drawing.Size(988, 106);
             this.groupBox3.TabIndex = 62;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Chi tiết";
@@ -453,13 +449,12 @@ namespace QuanLySSCenter
             this.txtThanhTien.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtThanhTien.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtThanhTien.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtThanhTien.Location = new System.Drawing.Point(734, 78);
-            this.txtThanhTien.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtThanhTien.Location = new System.Drawing.Point(652, 62);
             this.txtThanhTien.Name = "txtThanhTien";
             this.txtThanhTien.PasswordChar = '\0';
             this.txtThanhTien.PlaceholderText = "";
             this.txtThanhTien.SelectedText = "";
-            this.txtThanhTien.Size = new System.Drawing.Size(214, 35);
+            this.txtThanhTien.Size = new System.Drawing.Size(190, 28);
             this.txtThanhTien.TabIndex = 71;
             // 
             // label15
@@ -467,9 +462,9 @@ namespace QuanLySSCenter
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label15.ForeColor = System.Drawing.Color.Black;
-            this.label15.Location = new System.Drawing.Point(533, 81);
+            this.label15.Location = new System.Drawing.Point(474, 65);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(131, 32);
+            this.label15.Size = new System.Drawing.Size(110, 28);
             this.label15.TabIndex = 70;
             this.label15.Text = "Thành tiền";
             // 
@@ -485,13 +480,12 @@ namespace QuanLySSCenter
             this.txtDGBan.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtDGBan.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtDGBan.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtDGBan.Location = new System.Drawing.Point(734, 32);
-            this.txtDGBan.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtDGBan.Location = new System.Drawing.Point(652, 26);
             this.txtDGBan.Name = "txtDGBan";
             this.txtDGBan.PasswordChar = '\0';
             this.txtDGBan.PlaceholderText = "";
             this.txtDGBan.SelectedText = "";
-            this.txtDGBan.Size = new System.Drawing.Size(214, 35);
+            this.txtDGBan.Size = new System.Drawing.Size(190, 28);
             this.txtDGBan.TabIndex = 65;
             // 
             // label9
@@ -499,9 +493,9 @@ namespace QuanLySSCenter
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label9.ForeColor = System.Drawing.Color.Black;
-            this.label9.Location = new System.Drawing.Point(533, 35);
+            this.label9.Location = new System.Drawing.Point(474, 28);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(148, 32);
+            this.label9.Size = new System.Drawing.Size(123, 28);
             this.label9.TabIndex = 58;
             this.label9.Text = "Đơn giá bán";
             // 
@@ -511,9 +505,9 @@ namespace QuanLySSCenter
             this.label17.BackColor = System.Drawing.Color.Transparent;
             this.label17.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label17.ForeColor = System.Drawing.Color.Black;
-            this.label17.Location = new System.Drawing.Point(23, 86);
+            this.label17.Location = new System.Drawing.Point(20, 69);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(160, 32);
+            this.label17.Size = new System.Drawing.Size(134, 28);
             this.label17.TabIndex = 57;
             this.label17.Text = "Số lượng bán";
             // 
@@ -529,13 +523,12 @@ namespace QuanLySSCenter
             this.txtSLBan.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtSLBan.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtSLBan.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtSLBan.Location = new System.Drawing.Point(203, 81);
-            this.txtSLBan.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtSLBan.Location = new System.Drawing.Point(180, 65);
             this.txtSLBan.Name = "txtSLBan";
             this.txtSLBan.PasswordChar = '\0';
             this.txtSLBan.PlaceholderText = "Nhập số lượng";
             this.txtSLBan.SelectedText = "";
-            this.txtSLBan.Size = new System.Drawing.Size(214, 35);
+            this.txtSLBan.Size = new System.Drawing.Size(190, 28);
             this.txtSLBan.TabIndex = 55;
             // 
             // label18
@@ -544,9 +537,9 @@ namespace QuanLySSCenter
             this.label18.BackColor = System.Drawing.Color.Transparent;
             this.label18.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label18.ForeColor = System.Drawing.Color.Black;
-            this.label18.Location = new System.Drawing.Point(23, 38);
+            this.label18.Location = new System.Drawing.Point(20, 30);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(111, 32);
+            this.label18.Size = new System.Drawing.Size(92, 28);
             this.label18.TabIndex = 54;
             this.label18.Text = "Mã hàng";
             // 
@@ -562,23 +555,23 @@ namespace QuanLySSCenter
             this.txtMaHH.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtMaHH.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtMaHH.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtMaHH.Location = new System.Drawing.Point(203, 35);
-            this.txtMaHH.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtMaHH.Location = new System.Drawing.Point(180, 28);
             this.txtMaHH.Name = "txtMaHH";
             this.txtMaHH.PasswordChar = '\0';
             this.txtMaHH.PlaceholderText = "Nhập mã hàng hoá";
             this.txtMaHH.SelectedText = "";
-            this.txtMaHH.Size = new System.Drawing.Size(214, 35);
+            this.txtMaHH.Size = new System.Drawing.Size(190, 28);
             this.txtMaHH.TabIndex = 56;
             // 
             // dataBanHang
             // 
             this.dataBanHang.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataBanHang.Location = new System.Drawing.Point(42, 499);
+            this.dataBanHang.Location = new System.Drawing.Point(37, 399);
+            this.dataBanHang.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataBanHang.Name = "dataBanHang";
             this.dataBanHang.RowHeadersWidth = 62;
             this.dataBanHang.RowTemplate.Height = 28;
-            this.dataBanHang.Size = new System.Drawing.Size(1801, 490);
+            this.dataBanHang.Size = new System.Drawing.Size(1601, 392);
             this.dataBanHang.TabIndex = 64;
             this.dataBanHang.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataBanHang_Click);
             // 
@@ -592,20 +585,19 @@ namespace QuanLySSCenter
             this.guna2Button6.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.guna2Button6.ForeColor = System.Drawing.Color.White;
             this.guna2Button6.ImageSize = new System.Drawing.Size(17, 17);
-            this.guna2Button6.Location = new System.Drawing.Point(1306, 326);
-            this.guna2Button6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2Button6.Location = new System.Drawing.Point(1161, 261);
             this.guna2Button6.Name = "guna2Button6";
-            this.guna2Button6.Size = new System.Drawing.Size(176, 56);
+            this.guna2Button6.Size = new System.Drawing.Size(156, 45);
             this.guna2Button6.TabIndex = 65;
             this.guna2Button6.Text = "Làm mới";
             this.guna2Button6.Click += new System.EventHandler(this.btnLamMoi_Click);
             // 
             // frmQuanlyBanhang
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.ClientSize = new System.Drawing.Size(1903, 986);
+            this.ClientSize = new System.Drawing.Size(1692, 789);
             this.Controls.Add(this.guna2Button6);
             this.Controls.Add(this.dataBanHang);
             this.Controls.Add(this.groupBox3);
@@ -614,6 +606,7 @@ namespace QuanLySSCenter
             this.Controls.Add(this.btnXoaHDB);
             this.Controls.Add(this.btnSuaHDB);
             this.Controls.Add(this.btnThemHDB);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "frmQuanlyBanhang";
             this.Text = "Quản lý bán hàng";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
