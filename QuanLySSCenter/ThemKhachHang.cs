@@ -24,5 +24,65 @@ namespace QuanLySSCenter
         {
             
         }
+
+        private void guna2HtmlLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtMST_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtTenNCC_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtMaNCC_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnLuu_Click(object sender, EventArgs e)
+        {
+            using(SqlConnection con = new SqlConnection(sCon))
+            {
+                try
+                {
+                    con.Open();
+                    string query = @"INSERT INTO KHACHHANG
+                            (MaKH, TenKH,SDT, DiaChi) 
+                            VALUES (@MaKH, @TenKH, @SDTKH, @DiaChiKH)";
+
+                    SqlCommand cmd = new SqlCommand(query, con);
+                    cmd.Parameters.AddWithValue("@MaKH", txtMaKH.Text);
+                    cmd.Parameters.AddWithValue("@TenKH", txtTenKH.Text);
+                    cmd.Parameters.AddWithValue("@SDTKH", txtSDTKH.Text);
+                    cmd.Parameters.AddWithValue("@DiaChiKH", txtDiaChiKH.Text);
+
+                    int result = cmd.ExecuteNonQuery();
+                    if (result > 0)
+                    {
+                        MessageBox.Show("Thêm khách hàng thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        this.Close(); // Đóng form sau khi thêm
+                    }
+                    else
+                    {
+                        MessageBox.Show("Thêm thất bại!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Lỗi: " + ex.Message);
+                }
+            }
+        }
+
+        private void btnHuy_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

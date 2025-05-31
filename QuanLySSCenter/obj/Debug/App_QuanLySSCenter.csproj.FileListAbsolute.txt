@@ -395,3 +395,4 @@ D:\BaiTap\QTCSDL\BTNhom\git_nhom7\QuanLySSCenter\obj\Debug\App_QuanLySSCenter.cs
 D:\BaiTap\QTCSDL\BTNhom\git_nhom7\QuanLySSCenter\obj\Debug\App_Quan.6670E03D.Up2Date
 D:\BaiTap\QTCSDL\BTNhom\git_nhom7\QuanLySSCenter\obj\Debug\QuanLySSCenter.exe
 D:\BaiTap\QTCSDL\BTNhom\git_nhom7\QuanLySSCenter\obj\Debug\QuanLySSCenter.pdb
+D:\BaiTap\QTCSDL\BTNhom\git_nhom7\QuanLySSCenter\obj\Debug\QuanLySSCenter.SuaKH.resources
