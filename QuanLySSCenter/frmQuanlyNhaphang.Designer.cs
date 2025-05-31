@@ -751,7 +751,6 @@
             this.ClientSize = new System.Drawing.Size(1710, 840);
             this.Controls.Add(this.splitContainer1);
             this.Name = "frmQuanlyNhaphang";
-            this.Text = "Quản lý đơn nhập hàng";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.frmQuanlyNhaphang_Load);
             this.splitContainer1.Panel1.ResumeLayout(false);

@@ -262,6 +262,12 @@
     <Compile Include="SuaCongNo.Designer.cs">
       <DependentUpon>SuaCongNo.cs</DependentUpon>
     </Compile>
+    <Compile Include="SuaKH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SuaKH.Designer.cs">
+      <DependentUpon>SuaKH.cs</DependentUpon>
+    </Compile>
     <Compile Include="SuaNCC.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -372,6 +378,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SuaCongNo.resx">
       <DependentUpon>SuaCongNo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SuaKH.resx">
+      <DependentUpon>SuaKH.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SuaNCC.resx">
       <DependentUpon>SuaNCC.cs</DependentUpon>
